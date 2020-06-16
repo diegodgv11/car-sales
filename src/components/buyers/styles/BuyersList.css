@@ -1,0 +1,13 @@
+.buyers-table-wrapper{
+    padding: 40px;
+}
+
+.buyers-table{
+    width: 100%;
+}
+
+.buyers-item, th{
+    text-align: left;
+    color: #fff;
+    font-family: 'Roboto';
+}

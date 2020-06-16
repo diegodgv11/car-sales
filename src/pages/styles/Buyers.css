@@ -1,0 +1,19 @@
+.buyers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 120px);
+}
+
+.buyers-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.buyers-form-title{
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}

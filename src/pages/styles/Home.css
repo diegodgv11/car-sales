@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
+}
+
+.welcome{
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 8em;
+    border: 6px solid #1e272e;
+    padding: 25px 35px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.welcome:hover{
+    transform: scale(1.05);
+}
