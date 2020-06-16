@@ -4,7 +4,7 @@ export default class Buy extends Component{
     render(){
         return (
             <div className="buy">
-
+                hola jejej estas en buy
             </div>
         );
     }

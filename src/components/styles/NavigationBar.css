@@ -8,6 +8,10 @@
     justify-items: center;
 }
 
+.logo span{
+    font-family: 'Oswald';
+}
+
 .menu{
     display: flex;
     align-items: center;
