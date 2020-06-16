@@ -1,4 +1,42 @@
 .nav-bar{
     background: #2f3640;
     padding: 15px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.down-menu li{
+    margin: 0px 5px;
+}
+
+.down-menu ul{
+    display: none;
+}
+
+.down-menu:hover ul{
+    padding: 10px;
+    background: #353b48;
+    display: block;
+    position: absolute;
 }
