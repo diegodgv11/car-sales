@@ -19,16 +19,24 @@ export default class BuyersForm extends Component{
     };
 
     _saveBuyer = async form => {
-        const URL = '';
+        const URL = 'http://localhost:5000/app/services/register/registerBuyers.php';
         const config = {
             method: 'POST',
             body: form
         };
         try{
             const data = await fetch(URL, config);
-            const response = await parseInt(data.text());
+            const response = parseInt(await data.text());
             if(response === 1){
                 alert("Buyer registered successfully");
+                this.setState(
+                    {
+                        pid: "", 
+                        name: "", 
+                        address: ""
+                    }   
+                );
+                this.props.updateMethod();
             }
             else{
                 alert("buyer could not register");
