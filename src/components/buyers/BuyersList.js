@@ -10,7 +10,7 @@ export default class BuyersList extends Component{
                     <table className="buyers-table">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>PID</th>
                                 <th>Name</th>
                                 <th>Address</th>
                             </tr>
@@ -18,10 +18,10 @@ export default class BuyersList extends Component{
                         <tbody>
                             {
                                 this.props.buyers.map(buyer => (
-                                    <tr className="buyers-item" key={buyer.id}>
-                                        <td>{buyer.id}</td>
-                                        <td>{buyer.name}</td>
-                                        <td>{buyer.address}</td>
+                                    <tr className="buyers-item" key={buyer.ID}>
+                                        <td>{buyer.PID}</td>
+                                        <td>{buyer.Name}</td>
+                                        <td>{buyer.Address}</td>
                                     </tr>
                                 ))
                             }

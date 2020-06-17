@@ -15,6 +15,7 @@ import DeleteBuy from './pages/delete/DeleteBuy';
 import DeleteBuyers from './pages/delete/DeleteBuyers';
 import DeleteVehicles from './pages/delete/DeleteVehicles';
 import 'sanitize.css';
+import 'material-icons'
 import './index.css';
 
 ReactDOM.render(

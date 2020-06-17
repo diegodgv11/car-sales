@@ -1,0 +1,32 @@
+.owner-info{
+    padding: 0px 0px 30px 0px;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    border: 4px solid #1e272e;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background: #3d3d3d;
+}
+
+.owner-info-field{
+    font-size: 1em;
+    padding: 5px;
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+.btn-close{
+    color: #e74c3c;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    transform: scale(1.5);
+}

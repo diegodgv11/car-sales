@@ -1,24 +1,25 @@
-.buyers{
+.vehicles{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: calc(100vh - 120px);
 }
 
-.buyers-form-container{
+.vehicles-form-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
+    box-sizing: border-box;
 }
 
-.buyers-form-title{
+.vehicles-form-title{
     color: #fff;
     font-family: 'Roboto Condensed';
     text-align: center;
 }
 
-.buyers-form-title span{
+.vehicles-form-title span{
     font-size: 1em;
     vertical-align: middle;
 }

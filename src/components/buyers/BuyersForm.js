@@ -96,7 +96,7 @@ export default class BuyersForm extends Component{
                     onChange={this.handleChange}
                 /> 
                 <button className="buyers-form-field btn">
-                    Aceptar
+                    Accept
                 </button>
             </form>
         );

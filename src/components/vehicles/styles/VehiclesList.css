@@ -1,0 +1,27 @@
+.vehicles-table-wrapper{
+    padding: 40px;
+}
+
+.vehicles-table{
+    width: 100%;
+}
+
+.vehicles-item, th{
+    text-align: left;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.message{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buyer-column-func{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f1c40f;
+}

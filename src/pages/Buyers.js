@@ -14,7 +14,7 @@ export default class Buyers extends Component {
         try {
             const response = await fetch(URL);
             const json = await response.json();
-            this.setState({ data: [json] });
+            this.setState({ data: json });
         }
         catch (e) {
             alert("Something went wrong");
@@ -29,7 +29,7 @@ export default class Buyers extends Component {
         return (
             <div className="buyers">
                 <div className="buyers-form-container">
-                    <h1 className="buyers-form-title">Buyers Registration</h1>
+                    <h1 className="buyers-form-title"><span className="material-icons">store</span>Buyers Registration</h1>
                     <BuyersForm updateMethod={this.getData}/>
                 </div>
                 <BuyersList buyers={this.state.data} />
